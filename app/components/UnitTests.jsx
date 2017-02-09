@@ -9,10 +9,10 @@ var UnitTests = React.createClass({
 
     return (
       <div>
-        <h1 className="page-title">Unit Tests</h1>
         <p>Unit test report comes here.</p>
-        <Iframe url="https://github.com/hemmoi/Demopage/tree/master/reports/result.txt">
-        </Iframe>
+          <div className="report">
+            <Iframe url="https://s3.eu-west-2.amazonaws.com/demoreports/result.txt"/>
+          </div>
       </div>
     )
   }

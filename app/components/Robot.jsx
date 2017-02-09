@@ -1,13 +1,12 @@
 var React = require('react');
-
+var Iframe = require("react-iframe");
 var Robot = React.createClass({
 
   render: function () {
 
     return (
-      <div>
-        <h1 className="page-title">Robot Framework</h1>
-        <p>Robot Framework report comes here.</p>
+      <div className="report">
+            <Iframe url="https://s3.eu-west-2.amazonaws.com/demoreports/report.html"/>
       </div>
     )
   }

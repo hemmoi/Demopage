@@ -13,11 +13,18 @@ module.exports = function (config) {
     preprocessors: {
       'app/tests/**/*.test.jsx': ['webpack', 'sourcemap']
     },
-    reporters: ['mocha'],
+    reporters: ['mocha', 'html'],
     client: {
       mocha: {
         timeout: '5000'
       }
+    },
+    htmlReporter: {
+      outputFile: 'reports/unitreport.html',
+      pageTitle: 'Unit Tests',
+      groupSuites: true,
+      useCompactStyle: true,
+      useLegacyStyle: true
     },
     webpack: webpackConfig,
     webpackServer: {

@@ -34,7 +34,7 @@ module.exports = {
       Controls: 'app/components/Controls.jsx',
       applicationStyles: 'app/styles/app.scss',
     },
-    extensions: ['', '.js', '.jsx', '.html']
+    extensions: ['', '.js', '.jsx']
   },
   module: {
     loaders: [

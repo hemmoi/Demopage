@@ -8,12 +8,9 @@ var UnitTests = React.createClass({
   render: function () {
 
     return (
-      <div>
-        <p>Unit test report comes here.</p>
-          <div className="report">
-            <Iframe url="https://s3.eu-west-2.amazonaws.com/demoreports/result.txt"/>
-          </div>
-      </div>
+        <div className="report">
+            <Iframe url="https://s3.eu-west-2.amazonaws.com/demoreports/unitreport.html"/>
+        </div>
     )
   }
 });

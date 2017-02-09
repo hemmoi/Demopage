@@ -10,16 +10,16 @@ var Navigation = () => {
               Demo Application
             </li>
             <li>
-              <IndexLink to="/" activeClassName="active-link">Information</IndexLink>
+              <IndexLink id="info-tab" to="/" activeClassName="active-link">Information</IndexLink>
             </li>
             <li>
-              <IndexLink to="/countdown" activeClassName="active-link">Demo Application</IndexLink>
+              <IndexLink id="demo-tab" to="/countdown" activeClassName="active-link">Demo Application</IndexLink>
             </li>
             <li>
-              <IndexLink to="/unit" activeClassName="active-link">Unit Tests</IndexLink>
+              <IndexLink id="unit-tab" to="/unit" activeClassName="active-link">Unit Tests</IndexLink>
             </li>
             <li>
-              <IndexLink to="/robot" activeClassName="active-link">Robot Framework</IndexLink>
+              <IndexLink id="robot-tab" to="/robot" activeClassName="active-link">Robot Framework</IndexLink>
             </li>
           </ul>
         </div>

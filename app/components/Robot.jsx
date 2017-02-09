@@ -6,7 +6,8 @@ var Robot = React.createClass({
 
     return (
       <div className="report">
-            <Iframe url="https://s3.eu-west-2.amazonaws.com/demoreports/report.html"/>
+          <h3 className="page-title">Robot Framework Report</h3>
+          <Iframe url="https://s3.eu-west-2.amazonaws.com/demoreports/report.html"/>
       </div>
     )
   }

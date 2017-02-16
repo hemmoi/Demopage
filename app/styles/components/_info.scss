@@ -1,0 +1,24 @@
+@media screen and (max-width: 1000px) {
+    .image-pane {display:none;}
+}
+
+.info-page {
+  padding: 0;
+  margin: 0;
+}
+
+.image-pane {
+  float: left;
+  width: 40%;
+}
+
+.info-pane {
+  padding-left: 20px;
+  float: left;
+  width: 600px;
+}
+
+.video-cv {
+  width: 560px;
+  height: 315px;
+}

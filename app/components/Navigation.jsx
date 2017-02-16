@@ -7,7 +7,7 @@ var Navigation = () => {
         <div className="top-bar-left">
           <ul className="menu">
             <li className="menu-text">
-              Demo Application
+              Demo Page
             </li>
             <li>
               <IndexLink id="info-tab" to="/" activeClassName="active-link">Information</IndexLink>
@@ -26,7 +26,7 @@ var Navigation = () => {
         <div className="top-bar-right">
           <ul className="menu">
             <li className="menu-text">
-              Created by <a href="" target="_blank"> Kimmo </a>
+              Created by <a href="" target="_blank"> Kimmo Halonen</a>
             </li>
           </ul>
         </div>

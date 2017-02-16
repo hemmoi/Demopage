@@ -17,7 +17,7 @@ ReactDOM.render(
   <Router history={hashHistory}>
     <Route path="/" component={Main}>
       <Route path="countdown" component={Countdown}/>
-      <Route path="unit" component={UnitTests}/> */}
+      <Route path="unit" component={UnitTests}/>
       <Route path="robot" component={Robot}/>
       <IndexRoute component={Info}/>
     </Route>

@@ -17,7 +17,7 @@ var Info = React.createClass({
           <Tabs onSelect={this.handleSelect} selectedIndex={0}>
             <TabList>
               <Tab>About these pages</Tab>
-              <Tab>About the creator</Tab>
+              <Tab>About Me</Tab>
               <Tab>Video CV</Tab>
             </TabList>
             <TabPanel>

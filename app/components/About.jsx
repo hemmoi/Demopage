@@ -4,7 +4,7 @@ var About = React.createClass({
 
   render: function () {
     return (
-      <div className="row">
+      <div className="about-pages">
         <h2>Hello from About</h2>
         <p>
 
@@ -17,7 +17,7 @@ In pellentesque elit ex, sit amet commodo magna accumsan at. Interdum et malesua
 
 Nulla eget fringilla felis, vitae posuere nulla. Sed sollicitudin ornare ligula eget convallis. In consequat lacus nisi, vel dictum lorem venenatis id. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas vel eros enim. Nam ornare vestibulum augue, ac mattis est tempor eget. Suspendisse suscipit semper velit non dictum.
 
-Ut volutpat ipsum ac velit malesuada hendrerit. Donec vulputate dignissim iaculis. In molestie tortor sodales nisl auctor rhoncus. Aliquam justo sem, imperdiet eu mauris vel, laoreet pulvinar purus. Proin sodales viverra libero eu aliquam. Morbi nunc arcu, sodales vitae lacus eu, semper tincidunt orci. Nulla facilisi. Integer ac velit luctus, varius neque eu, dignissim velit. Mauris tortor elit, accumsan quis auctor eu, maximus eu metus. Morbi lobortis urna in sapien varius rutrum. Ut sollicitudin metus vel ligula volutpat convallis. Cras nibh neque, suscipit sed ex ac, auctor finibus elit. Sed pretium sit amet urna at aliquam. Curabitur sagittis dapibus nisi, sed congue nunc porta eu. Integer tristique lorem sed ipsum tempus, id commodo quam rhoncus. Pellentesque id velit dolor. 
+Ut volutpat ipsum ac velit malesuada hendrerit. Donec vulputate dignissim iaculis. In molestie tortor sodales nisl auctor rhoncus. Aliquam justo sem, imperdiet eu mauris vel, laoreet pulvinar purus. Proin sodales viverra libero eu aliquam. Morbi nunc arcu, sodales vitae lacus eu, semper tincidunt orci. Nulla facilisi. Integer ac velit luctus, varius neque eu, dignissim velit. Mauris tortor elit, accumsan quis auctor eu, maximus eu metus. Morbi lobortis urna in sapien varius rutrum. Ut sollicitudin metus vel ligula volutpat convallis. Cras nibh neque, suscipit sed ex ac, auctor finibus elit. Sed pretium sit amet urna at aliquam. Curabitur sagittis dapibus nisi, sed congue nunc porta eu. Integer tristique lorem sed ipsum tempus, id commodo quam rhoncus. Pellentesque id velit dolor.
         </p>
       </div>
     )
